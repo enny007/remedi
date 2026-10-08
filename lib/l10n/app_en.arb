@@ -1,0 +1,1195 @@
+{
+  "@@locale": "en",
+  "appName": "Remedi",
+  "notifChannelDoses": "Medication alarms",
+  "notifChannelDosesDesc": "Loud reminders when a dose is due",
+  "notifChannelCare": "Care alerts",
+  "notifChannelCareDesc": "Caregiver fail-safe and refill warnings",
+  "notifDoseTitle": "Time for your medicine",
+  "notifSnoozeTitle": "Snoozed reminder",
+  "notifDoseBody": "{medication} • take {amount}",
+  "@notifDoseBody": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "notifCaregiverTitle": "Dose not confirmed",
+  "notifCaregiverBody": "{medication} is still unconfirmed. Tap to alert {caregiver} by SMS.",
+  "@notifCaregiverBody": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      },
+      "caregiver": {
+        "type": "String"
+      }
+    }
+  },
+  "notifRefillTitle": "Refill needed soon",
+  "notifRefillBody": "Only {count} of {medication} left.",
+  "@notifRefillBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "actionMarkTaken": "Mark as taken",
+  "actionSnooze15": "Snooze 15m",
+  "offlineReady": "Offline Ready",
+  "offline": "Offline",
+  "changeLanguage": "Change language",
+  "chooseLanguage": "Choose your language",
+  "chooseLanguageHint": "Reminders, alarms and instructions will use this language, even offline.",
+  "profileTitle": "Profile & Settings",
+  "formTablet": "Tablet",
+  "formCapsule": "Capsule",
+  "formCaplet": "Caplet",
+  "formSoftgel": "Softgel",
+  "formLiquid": "Liquid / Syrup",
+  "formDrops": "Drops",
+  "formInjection": "Injection",
+  "formInhaler": "Inhaler",
+  "formCream": "Cream / Ointment",
+  "formSachet": "Sachet",
+  "unitMl": "ml",
+  "unitDrops": "drops",
+  "unitInjection": "injection",
+  "unitPuffs": "puffs",
+  "unitApplication": "application",
+  "unitSachet": "sachet",
+  "unitPills": "pills",
+  "freqOnce": "Once daily",
+  "freqTwice": "Twice daily",
+  "freqThrice": "3 times daily",
+  "freqPrn": "As needed",
+  "freqOnceHint": "Morning focus",
+  "freqTwiceHint": "Every 12 hours",
+  "freqThriceHint": "With meals",
+  "freqPrnHint": "For sudden flares",
+  "mealWith": "With meal",
+  "mealBefore": "Before food",
+  "mealAfter": "After food",
+  "mealEmpty": "Empty stomach",
+  "mealWater": "With water only",
+  "mealAny": "No food rule",
+  "mealWithHint": "During or right after",
+  "mealBeforeHint": "30 min prior",
+  "mealAfterHint": "Within 1 hour",
+  "mealEmptyHint": "Full glass of water",
+  "mealWaterHint": "Any time, with water",
+  "mealAnyHint": "Food does not matter",
+  "skipStomach": "Stomach upset, nausea or vomiting",
+  "skipStock": "Medication out of stock or misplaced",
+  "skipDoctor": "Instructed by my doctor to hold",
+  "skipOther": "Another reason",
+  "slotBreakfast": "Breakfast",
+  "slotLunch": "Lunch",
+  "slotDinner": "Dinner",
+  "slotBedtime": "Bedtime",
+  "slotCustom": "Reminder",
+  "symptomNausea": "Nausea",
+  "symptomDizziness": "Dizziness",
+  "symptomDryCough": "Dry cough",
+  "symptomFatigue": "Fatigue",
+  "symptomHeadache": "Headache",
+  "symptomSwelling": "Ankle swelling",
+  "symptomMusclePain": "Muscle pain",
+  "symptomDiarrhea": "Diarrhoea",
+  "symptomLowSugar": "Low sugar (shaky, sweaty)",
+  "symptomRash": "Skin rash",
+  "symptomStomachPain": "Stomach pain",
+  "partMorning": "Morning",
+  "partAfternoon": "Afternoon",
+  "partEvening": "Evening",
+  "partNight": "Night",
+  "navSchedule": "Schedule",
+  "navFastLog": "Fast Log",
+  "navMyMeds": "My Meds",
+  "navHealth": "Health",
+  "toastDoseLogged": "{medication} logged as taken.",
+  "@toastDoseLogged": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "toastSnoozedUntil": "Snoozed. We'll ring again at {time}.",
+  "@toastSnoozedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "snoozeLimitReached": "Snooze limit reached. Please take or skip this dose.",
+  "sosTitle": "Emergency Alert",
+  "sosNoCaregiver": "You have not added a caregiver yet. Add someone we can text or call for you in an emergency.",
+  "addCaregiver": "Add a caregiver",
+  "sosBody": "Send an SMS or call {name}. SMS works without mobile data.",
+  "@sosBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosMessage": "URGENT from Remedi: {patient} needs help. Please call or check on them now.",
+  "@sosMessage": {
+    "placeholders": {
+      "patient": {
+        "type": "String"
+      }
+    }
+  },
+  "sosDoseMessage": "Remedi alert: {patient} has not confirmed {medication} due at {time}. Please check on them.",
+  "@sosDoseMessage": {
+    "placeholders": {
+      "patient": {
+        "type": "String"
+      },
+      "medication": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSendSms": "Send SMS to {name}",
+  "@sosSendSms": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosCall": "Call {name}",
+  "@sosCall": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "skipTitle": "Select Clinical Skip Reason",
+  "skipAuditNote": "All skipped doses are recorded in your offline log for your doctor's medication review.",
+  "skipAuditNoteDoctor": "All skipped doses are recorded in your offline log for {doctor}'s medication review.",
+  "@skipAuditNoteDoctor": {
+    "placeholders": {
+      "doctor": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmSkip": "Confirm Recorded Skip",
+  "skipRecorded": "Skip recorded in your offline log.",
+  "logSymptomTitle": "How are you feeling?",
+  "logSymptomHint": "Pick what you noticed. It will be shared in your doctor visit summary.",
+  "symptomLogged": "{symptom} recorded.",
+  "@symptomLogged": {
+    "placeholders": {
+      "symptom": {
+        "type": "String"
+      }
+    }
+  },
+  "goodMorning": "Good morning, {name}",
+  "@goodMorning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "goodAfternoon": "Good afternoon, {name}",
+  "@goodAfternoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "goodEvening": "Good evening, {name}",
+  "@goodEvening": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyScheduleTitle": "No medicines yet",
+  "emptyScheduleBody": "Add your first medicine and Remedi will ring on time, even with no network.",
+  "addMedicine": "Add Medicine",
+  "laterToday": "Later Today",
+  "dosesPending": "{count} pending",
+  "@dosesPending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "sosButton": "Emergency SOS / Alert Caregiver (SMS)",
+  "moodAllDone": "All done!",
+  "moodGood": "Feeling good!",
+  "moodStart": "Let's begin.",
+  "noDosesToday": "No scheduled doses today.",
+  "dosesDoneOf": "{done} of {total} doses done today.",
+  "@dosesDoneOf": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "snoozedUntil": "Snoozed until {time}",
+  "@snoozedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "overdueBy": "Overdue by {minutes} min",
+  "@overdueBy": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "dueNow": "Due now",
+  "dueInMinutes": "Due in {minutes} mins",
+  "@dueInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "dueAt": "Due at {time}",
+  "@dueAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "upNext": "Up Next",
+  "undo": "Undo",
+  "routineOf": "{slot} routine",
+  "@routineOf": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "fullGlassWater": "Full glass of water",
+  "markAsTaken": "Mark as Taken",
+  "snooze15": "Snooze 15m",
+  "noSnoozesLeft": "No snoozes left",
+  "skipOrSideEffect": "Side effect / Skip",
+  "allDoneTitle": "All doses done today",
+  "allDoneBody": "Well done. Consistency protects your health.",
+  "completedEarlier": "Completed Earlier",
+  "takenCount": "{count} taken",
+  "@takenCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "statusDone": "Done",
+  "statusSkipped": "Skipped",
+  "statusMissed": "Missed",
+  "tookItLate": "I took it",
+  "doctorDirective": "Doctor's Clinical Directive",
+  "forMedication": "For {medication}",
+  "@forMedication": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "viewDetails": "View details",
+  "asNeededMeds": "As-needed medicines",
+  "tookPrn": "Took {medication}",
+  "@tookPrn": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "alarmAlert": "Alarm Alert",
+  "doseNotFound": "Dose not found",
+  "doseNotFoundBody": "This reminder may have been changed or removed.",
+  "scheduledDose": "Scheduled Dose",
+  "doseXofY": "Dose {index} of {total} today",
+  "@doseXofY": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "prescribedFor": "Prescribed for:",
+  "routeOral": "Oral",
+  "criticalDirective": "Critical Clinical Directive",
+  "directiveWithMeal": "Take with your meal or right after eating",
+  "directiveAfterFood": "Take within 1 hour after food",
+  "directiveBeforeFood": "Take 30 minutes before food",
+  "directiveEmpty": "Take on an empty stomach with a full glass of water",
+  "directiveWater": "Take with plenty of clean water",
+  "accountabilityTitle": "Accountability Confirmation",
+  "accountabilityBody": "Confirm you have actually taken it before completing this dose.",
+  "confirmSwallowed": "I have swallowed {units} with a full cup of water",
+  "@confirmSwallowed": {
+    "placeholders": {
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmApplied": "I have applied {units}",
+  "@confirmApplied": {
+    "placeholders": {
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmInjected": "I have taken {units}",
+  "@confirmInjected": {
+    "placeholders": {
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmInhaled": "I have taken {units} from my inhaler",
+  "@confirmInhaled": {
+    "placeholders": {
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "preventsEscalation": "Stops the caregiver alert for this dose",
+  "iHaveTakenThisDose": "I Have Taken This Dose",
+  "snoozeWithRemaining": "Snooze 15 Minutes ({count} left after this)",
+  "@snoozeWithRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "skipDoseRequiresReason": "Skip Dose (requires a clinical reason)",
+  "overdueAlarm": "Overdue dose",
+  "urgentAlarm": "Urgent alarm",
+  "offlineVerified": "Offline verified • works without network",
+  "ringing": "Ringing",
+  "alreadyTaken": "This dose is logged as taken",
+  "alreadySkipped": "This dose was skipped",
+  "loggedAt": "Logged at {time}",
+  "@loggedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "caregiverSetupPrompt": "Add a caregiver so someone can be alerted if you miss a dose.",
+  "caregiverFailSafe": "Caregiver Fail-Safe",
+  "minutesQueue": "{minutes}m queue",
+  "@minutesQueue": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "caregiverFailSafeBody": "If not confirmed by {time}, Remedi will prompt you to send an offline SMS alert to:",
+  "@caregiverFailSafeBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "caregiverAlertsOff": "Caregiver alerts are turned off. You can still text them:",
+  "cameraUnavailable": "Camera is not available on this device.",
+  "analyzingPrescription": "Reading text on your device…",
+  "scanFound": "Found {medication}. Check the details below.",
+  "@scanFound": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "scanNotRecognized": "We couldn't recognise the medicine. Please confirm the name.",
+  "confirmMedicine": "Confirm medicine",
+  "instantIntake": "Instant Intake",
+  "addNewMedicine": "Add New Medicine",
+  "addNewMedicineHint": "Snap your prescription sheet, scan the pill box, or tell us the name.",
+  "smartScan": "Smart Instant Scan",
+  "works100Offline": "Works 100% Offline",
+  "onDeviceOcr": "On-device",
+  "snapAutoFill": "Snap & Auto-Fill",
+  "chooseFromGallery": "Choose from Gallery",
+  "voiceNote": "Voice Note",
+  "voiceNoteHint": "Say the medicine name and strength",
+  "tapToSpeak": "Tap to speak",
+  "typeName": "Type Name",
+  "typeNameHint": "Search brand or generic name",
+  "manualEntry": "Manual entry",
+  "quickPick": "Quick Pick Common Medicines",
+  "oneTapAdd": "1-Tap Add",
+  "readingText": "Reading…",
+  "lensReady": "Lens Ready",
+  "aimInsideBox": "Aim inside box",
+  "aimHint": "Aim at pill box, blister pack, or doctor's paper script",
+  "searchMedicineHint": "e.g. Metformin, Panadol, Amlodipine",
+  "useCustomMedicine": "Add \"{name}\"",
+  "@useCustomMedicine": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "useCustomMedicineHint": "Not in the list? Add it with your own details.",
+  "voiceSheetHint": "For example: \"Metformin five hundred milligrams\".",
+  "voiceUnavailable": "Speech recognition is not available. Please type the name instead.",
+  "listening": "Listening…",
+  "tapMicToSpeak": "Tap the microphone and speak.",
+  "useThisMedicine": "Use {medication}",
+  "@useThisMedicine": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "editMedicine": "Edit medicine",
+  "drugNameLabel": "Medicine name",
+  "drugNameHint": "Brand or generic name",
+  "strengthLabel": "Strength & unit",
+  "strengthHint": "e.g. 500mg, 5ml",
+  "doseFormLabel": "Dose form",
+  "requiredField": "This is required",
+  "required": "Required",
+  "saveContinue": "Save & continue",
+  "addAtLeastOneTime": "Add at least one reminder time.",
+  "remindersSet": "Reminders set for {medication}.",
+  "@remindersSet": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "changesSaved": "Changes saved.",
+  "editRoutine": "Edit Routine",
+  "stepScheduleFood": "Step 1 of 2 • Schedule & Food",
+  "unnamedMedicine": "Unnamed medicine",
+  "edit": "Edit",
+  "howOften": "1. How often do you take it?",
+  "tapToSelect": "Tap to select",
+  "foodRoutine": "2. Food Routine",
+  "preventsNausea": "Prevents nausea",
+  "prnNoReminders": "As-needed medicines have no alarms. Log each dose from the Schedule tab when you take it.",
+  "reminderTimes": "3. Reminder Times",
+  "basedOnRoutine": "Based on your routine",
+  "addReminderTime": "Add reminder time",
+  "offlineAlarmsTitle": "Offline Alarms",
+  "offlineAlarmsBody": "Alerts ring reliably even without cell reception or internet connection.",
+  "saveChanges": "Save Changes",
+  "saveSetReminders": "Save & Set Reminders",
+  "moreClinicalDetails": "More clinical details",
+  "moreClinicalDetailsHint": "(optional doctor notes, refills)",
+  "doseSlotLabel": "Dose {number} • {slot}",
+  "@doseSlotLabel": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      },
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "adjustTime": "Adjust time",
+  "doseAmount": "Dose amount",
+  "removeTime": "Remove time",
+  "nameStrengthRequired": "Medicine name and strength are required.",
+  "clinicalDetails": "Clinical Details",
+  "safeIntakeProtocol": "Safe Offline Intake Protocol",
+  "clinicalDetailsTitle": "Ailment & Prescription Details",
+  "clinicalDetailsStep": "Step 2 of 2: Clinical context for {medication}",
+  "@clinicalDetailsStep": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "whyExtraTime": "Why this takes extra time",
+  "whyExtraTimeBody": "Entering exact diagnoses, doctor instructions and supply details makes your offline alarms, refill warnings and doctor summary accurate, even with zero network signal.",
+  "diagnosedContext": "Diagnosed Ailment Context",
+  "conditionLabel": "Diagnosed condition",
+  "conditionHint": "e.g. Hypertension, Type 2 Diabetes",
+  "facilityLabel": "Hospital / Facility",
+  "facilityHint": "e.g. Lagoon Hospital, Ikoyi",
+  "prescriberLabel": "Prescribing doctor",
+  "prescriberHint": "e.g. Dr. Adeleke",
+  "specialtyLabel": "Specialty",
+  "specialtyHint": "e.g. Cardiology",
+  "doctorPhoneLabel": "Doctor / clinic phone",
+  "prescriptionDetails": "Prescription Details",
+  "doctorInstructionsLabel": "Doctor's instructions",
+  "doctorInstructionsHint": "e.g. Drink 2 full glasses of water with it",
+  "pillDescriptionLabel": "What the pill looks like",
+  "pillDescriptionHint": "e.g. White oblong tablet marked 'M 500'",
+  "rxNumberLabel": "Prescription number",
+  "prescriptionBackup": "Prescription Paper Backup",
+  "noPrescriptionPhoto": "No photo yet",
+  "prescriptionSaved": "Prescription photo saved",
+  "storedOnDevice": "Stored only on this phone",
+  "attachPhoto": "Attach photo",
+  "supplyTracking": "Supply & Refill Tracking",
+  "stockLabel": "{unit} in stock",
+  "@stockLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "refillAlertAt": "Refill alert at",
+  "refillExplainer": "Remedi counts down with every dose you log and warns you offline when supply runs low.",
+  "sideEffectWatchlist": "Known Side Effects Watchlist",
+  "sideEffectWatchlistHint": "Select symptoms your doctor flagged for {medication}. You can log them from your health journal.",
+  "@sideEffectWatchlistHint": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "encryptedLocal": "Saved only in your phone's private storage",
+  "saveMedicineSetReminders": "Save Medicine & Set Reminders",
+  "backToRoutine": "Back to Schedule & Food",
+  "medicineCabinet": "Medicine Cabinet",
+  "activeCount": "{count} Active",
+  "@activeCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "search": "Search",
+  "cabinetHint": "Your prescribed medicines, safe-use guides and refill trackers.",
+  "searchCabinet": "Search your medicines",
+  "filterAll": "All ({count})",
+  "@filterAll": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyCabinetTitle": "Your cabinet is empty",
+  "noMedsInCategory": "No medicines in this category",
+  "noMedsInCategoryBody": "Tap 'All' to view your list or add a medicine for this time of day.",
+  "offlineSynchronized": "Saved Offline",
+  "offlineSynchronizedBody": "Prescription safety cards are stored on your phone for review even without cell service.",
+  "supplyNotTracked": "Stock not tracked",
+  "lowSupply": "Low supply",
+  "daysLeft": "{days} days left",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "goodSupply": "Good supply",
+  "savedOnDevice": "Saved on this device",
+  "details": "Details",
+  "refillMessage": "Hello, I would like a refill of {medication}{rx} for {patient}. Thank you.",
+  "@refillMessage": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      },
+      "rx": {
+        "type": "String"
+      },
+      "patient": {
+        "type": "String"
+      }
+    }
+  },
+  "refillSubject": "Refill request: {medication}",
+  "@refillSubject": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "activeRx": "Active Rx",
+  "supplyTracker": "Supply Tracker",
+  "daysRemaining": "{days} days remaining",
+  "@daysRemaining": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "refillBy": "Refill by {date}",
+  "@refillBy": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "prescriber": "Prescriber",
+  "clinicalInstructions": "Clinical Instructions",
+  "requestRefill": "Request Pharmacy Refill",
+  "openFullDetails": "Open full details",
+  "editMedicationDetails": "Edit Medication Details",
+  "medicationDetail": "Medication Detail",
+  "medicineNotFound": "Medicine not found",
+  "updateStock": "Update stock",
+  "updateStockHint": "How many do you have now? Tap a refill amount to add it.",
+  "save": "Save",
+  "stockUpdated": "Stock updated.",
+  "stopMedicineTitle": "Stop {medication}?",
+  "@stopMedicineTitle": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "stopMedicineBody": "Reminders will stop. Your dose history is kept for your doctor's review. Only stop a medicine if your doctor told you to.",
+  "stopMedicine": "Stop medicine",
+  "medicineStopped": "{medication} stopped. Reminders cancelled.",
+  "@medicineStopped": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "backToCabinet": "Back to Cabinet",
+  "encryptedLocalRecord": "Private local record",
+  "remainingSupply": "Remaining Supply",
+  "notTracked": "Not tracked",
+  "pillIdentifier": "Pill Identifier",
+  "seePrescriptionPhoto": "See prescription photo",
+  "dosageRoutine": "Dosage Routine",
+  "perIntake": "{units} per intake",
+  "@perIntake": {
+    "placeholders": {
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "perDay": "{amount}/day",
+  "@perDay": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "safetyInteractions": "Safety & Interactions",
+  "offlineSafetyDb": "Offline reference, no internet needed",
+  "notInReference": "Not in the offline reference",
+  "noKnownClash": "No known clash found",
+  "noOtherMeds": "You have no other active medicines.",
+  "checkedAgainst": "Checked against: {medications}",
+  "@checkedAgainst": {
+    "placeholders": {
+      "medications": {
+        "type": "String"
+      }
+    }
+  },
+  "checked": "Checked",
+  "interactionWith": "Interaction with {medication}",
+  "@interactionWith": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "askDoctor": "Ask doctor",
+  "caution": "Caution",
+  "dietWarning": "Diet & Alcohol Warning",
+  "missedDoseTitle": "What to do if a dose is missed?",
+  "missedDoseGeneric": "Take it as soon as you remember. If it is almost time for the next dose, skip the missed one. Never take a double dose.",
+  "storageUse": "Storage & use",
+  "referenceDisclaimer": "General guidance only. Always follow your doctor or pharmacist.",
+  "prescriptionOrigin": "Prescription Origin",
+  "prescriberUnknown": "Prescriber not added",
+  "callClinic": "Call clinic",
+  "add": "Add",
+  "emergencyResponder": "Emergency Responder",
+  "smsLinked": "SMS Linked",
+  "logDoseNow": "Log Dose Now ({units})",
+  "@logDoseNow": {
+    "placeholders": {
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "refillSms": "Offline Refill SMS",
+  "editRoutineBtn": "Edit Routine",
+  "logSideEffect": "Log side effect",
+  "bpNormal": "Normal",
+  "bpElevated": "Elevated",
+  "bpStage1": "High • Stage 1",
+  "bpStage2": "High • Stage 2",
+  "bpCrisis": "Crisis level",
+  "bpCrisisAdvice": "This reading is very high. Rest 5 minutes and re-check. If it stays high or you feel unwell, seek emergency care now.",
+  "enterBothValues": "Enter both numbers.",
+  "enterValue": "Enter a value.",
+  "valueLooksWrong": "That value looks wrong. Please check and try again.",
+  "vitalSaved": "Reading saved.",
+  "logVitalTitle": "Log a reading",
+  "systolic": "Top (systolic)",
+  "diastolic": "Bottom (diastolic)",
+  "saveReading": "Save reading",
+  "bloodPressure": "Blood pressure",
+  "bloodSugar": "Blood sugar",
+  "heartRate": "Heart rate",
+  "weight": "Weight",
+  "steps": "Steps",
+  "myHealth": "My Health",
+  "doctorVisitTitle": "Doctor Visit Summary",
+  "doctorVisitBody": "Take your full medicine and vitals log to your next appointment. No mobile data needed.",
+  "generateSummary": "Generate Doctor Visit Summary (PDF / QR)",
+  "offlineDataVault": "Offline Data Vault",
+  "localAndPrivate": "Private & stored on this phone",
+  "pendingCount": "{count} pending",
+  "@pendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "vaultBody": "All medication and vitals logs are stored on this phone. {count} changes are queued for cloud backup once it is enabled.",
+  "@vaultBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "attemptSync": "Sync Now",
+  "cloudSyncNotConfigured": "Cloud backup is not switched on yet. Your data is safe on this phone.",
+  "noDataYet": "No data yet",
+  "excellent": "Excellent",
+  "good": "Good",
+  "needsAttention": "Needs attention",
+  "adherence30": "30-day adherence",
+  "target90": "target ≥90%",
+  "currentStreak": "Current streak",
+  "days": "days",
+  "onTimeRate": "{percent}% taken on time",
+  "@onTimeRate": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "weeklyRoutine": "Weekly Routine",
+  "missedThisWeek": "{count} missed doses this week",
+  "@missedThisWeek": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "last7Days": "Last 7 days",
+  "legendOnTime": "On time",
+  "legendLate": "Late",
+  "legendMissed": "Missed / skipped",
+  "languageCardTitle": "Language & Voice",
+  "languageCardBody": "Reminders and alarms use your selected language, even when completely offline.",
+  "vitalsQuickLogger": "Vitals Quick Logger",
+  "seeTrends": "See trends",
+  "noVitalsYet": "No readings yet. Log your blood pressure or sugar to track trends.",
+  "logBpOrSugar": "Log Blood Pressure or Sugar",
+  "otherMedicines": "Other medicines",
+  "activeConditions": "Active Conditions & Regimens",
+  "conditionsCount": "{count} groups",
+  "@conditionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "since": "Since {date}",
+  "@since": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "refillInDays": "Refill in {days}d",
+  "@refillInDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "lowSupplyNotice": "Low supply: {medication}, only {amount} left",
+  "@lowSupplyNotice": {
+    "placeholders": {
+      "medication": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "orderRefill": "Order Refill",
+  "symptomsNotes": "Symptoms & Notes",
+  "noSymptoms": "No symptoms logged in the last 30 days.",
+  "healthSynced": "Health data synced to this phone.",
+  "healthConnectMissing": "Health Connect is not installed. Opening the store…",
+  "healthUnavailable": "Health data is not available on this device.",
+  "healthDenied": "Permission was not granted. You can allow it in your phone's settings.",
+  "bpAfterDose": "Recorded {minutes} min after your {medication} dose.",
+  "@bpAfterDose": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      },
+      "medication": {
+        "type": "String"
+      }
+    }
+  },
+  "vitalsAndSync": "Vitals & Health Sync",
+  "connectedActive": "Connected & Active",
+  "notConnected": "Not connected",
+  "syncNow": "Sync Now",
+  "connect": "Connect",
+  "onDeviceOnly": "Processed on your phone only • no cloud",
+  "restingHeartRate": "Resting Heart Rate",
+  "bpmRange": "{min} – {max} BPM",
+  "@bpmRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "bpmAvg7d": "BPM avg (7 days)",
+  "noHeartData": "No heart rate readings in the last 7 days.",
+  "connectToSeeHeart": "Connect your health app to see heart rate from your watch or phone.",
+  "dailyMobility": "Daily Mobility",
+  "goalSteps": "Goal {steps}",
+  "@goalSteps": {
+    "placeholders": {
+      "steps": {
+        "type": "String"
+      }
+    }
+  },
+  "stepsDistance": "About {km} km today",
+  "@stepsDistance": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "pillVitalsHarmony": "Pill & Vitals Harmony",
+  "harmonyPrivacy": "Readings are matched with your dose log on this phone. Nothing is uploaded.",
+  "bloodPressureCheck": "Blood Pressure Check",
+  "offlineBiometricCache": "Offline Health Cache",
+  "biometricPoints": "{count} readings stored securely on this phone.",
+  "@biometricPoints": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "autoSyncOnOpen": "Auto-sync when I open Remedi",
+  "autoSyncOnOpenHint": "Pull new readings from your health app each time",
+  "generateClinicalReport": "Generate Clinical Report (PDF & QR)",
+  "exportPrepared": "Summary prepared on your phone.",
+  "exportFailed": "Could not create the summary. Please try again.",
+  "handoverProtocol": "Physician Handover",
+  "summaryTitle": "Clinical Summary & QR Export",
+  "summarySubtitle": "Zero-connectivity handover for outpatient visits, triage and emergencies.",
+  "ageYears": "{age} yrs",
+  "@ageYears": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "bloodGroupValue": "Blood: {group}",
+  "@bloodGroupValue": {
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "genotypeValue": "Genotype: {genotype}",
+  "@genotypeValue": {
+    "placeholders": {
+      "genotype": {
+        "type": "String"
+      }
+    }
+  },
+  "primaryDiagnoses": "Primary Diagnoses",
+  "noneRecorded": "None recorded",
+  "allergiesValue": "Allergies: {allergies}",
+  "@allergiesValue": {
+    "placeholders": {
+      "allergies": {
+        "type": "String"
+      }
+    }
+  },
+  "generatedOnDevice": "Generated on this phone",
+  "generatedAt": "{time} generated",
+  "@generatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "qrSemantics": "QR code containing your clinical summary",
+  "cameraDecodable": "Scan with any camera",
+  "cameraDecodableBody": "Contains a compact data snapshot of your medicines, adherence and vitals. No network needed.",
+  "zeroInternet": "Zero Internet Required",
+  "valid48h": "Valid 48 Hours",
+  "dossierHighlights": "Clinical Highlights",
+  "last30Days": "Last 30 Days",
+  "regimenAdherence": "30-Day Regimen Adherence",
+  "percentOnTime": "{percent}% On-Time",
+  "@percentOnTime": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "takenShort": "taken",
+  "vitalsCorrelation": "Vitals Summary",
+  "bpAverage": "Blood Pressure Avg",
+  "readingsCount": "{count} readings",
+  "@readingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "systolicTrend": "Systolic trend (latest readings)",
+  "checksumLabel": "Integrity checksum: {checksum}",
+  "@checksumLabel": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "savePrintPdf": "Save PDF / Print Summary",
+  "shareNearby": "Share via Bluetooth, AirDrop or WhatsApp",
+  "privacyNotice": "Your health records stay on this phone. Nothing is uploaded unless you choose to share this summary.",
+  "welcomeTitle": "Welcome to Remedi",
+  "welcomeBody": "Medicine reminders that work without network, in your own language.",
+  "continueLabel": "Continue",
+  "back": "Back",
+  "aboutYouTitle": "About you",
+  "aboutYouBody": "This stays on your phone. It helps your doctor summary and alarms speak to you by name.",
+  "yourName": "Your name",
+  "caregiverOptional": "Caregiver (optional)",
+  "caregiverWhy": "If a dose is not confirmed, Remedi prompts you to send them an SMS alert. SMS works without mobile data.",
+  "caregiverName": "Caregiver's name",
+  "caregiverRelation": "Relationship",
+  "caregiverRelationHint": "e.g. Son, Daughter, Nurse",
+  "caregiverPhone": "Caregiver's phone number",
+  "readyTitle": "Let Remedi ring for you",
+  "readyBody": "Allow notifications and alarms so reminders ring on time, even with your phone locked.",
+  "readyPoint1": "Loud alarms at each dose time, with snooze",
+  "readyPoint2": "Everything works 100% offline",
+  "readyPoint3": "Caregiver SMS alerts if a dose is missed",
+  "readyPoint4": "Doctor visit summary with PDF and QR code",
+  "enableRemindersStart": "Enable Reminders & Start",
+  "exploreSample": "Explore with sample medicines",
+  "medicalDisclaimer": "Remedi helps you follow your prescription. It does not replace advice from your doctor or pharmacist.",
+  "titleLabel": "Title",
+  "dateOfBirth": "Date of birth",
+  "sex": "Sex",
+  "female": "Female",
+  "male": "Male",
+  "bloodGroup": "Blood group",
+  "genotype": "Genotype",
+  "allergies": "Allergies",
+  "allergiesHint": "e.g. Penicillin, Sulfa drugs",
+  "caregiverAlertsToggle": "Caregiver fail-safe alerts",
+  "caregiverAlertsToggleHint": "Prompt me to text my caregiver when a dose is not confirmed",
+  "alertAfter": "Alert after",
+  "minutesShort": "{minutes} min",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettings": "App settings",
+  "alarmPermissions": "Alarm & notification permissions",
+  "alarmPermissionsHint": "Make sure reminders can ring on time",
+  "alarmsArmed": "Alarms are armed.",
+  "alarmsBlocked": "Notifications are blocked. Please allow them in phone settings.",
+  "remiName": "Remi",
+  "remiLoading": "Remi is getting things ready…",
+  "offlineVault": "100% Offline Vault",
+  "splashTagline": "Your caring offline health companion",
+  "splashVault": "Private medicine vault",
+  "splashFormulary": "Local clinical formulary",
+  "splashScanner": "On-device text scanner",
+  "splashAlarms": "Offline dose alarms",
+  "splashReady": "Everything is ready",
+  "splashPreparing": "Preparing your vault…",
+  "statusReady": "Ready",
+  "statusLoading": "Loading…",
+  "statusWaiting": "Waiting",
+  "zeroTelemetryTitle": "Zero-Tracking Promise",
+  "zeroTelemetryBody": "Your routines, prescriptions and dose logs stay on this phone. Remedi works fully without signal or Wi-Fi.",
+  "openDoseStation": "Open Daily Dose Station",
+  "getStarted": "Get Started",
+  "worksOffline": "Works offline",
+  "skip": "Skip",
+  "offlineActive": "100% Offline Active",
+  "obStep1Label": "Step 1 of 3",
+  "obStep2Label": "Step 2 of 3 • Smart Intake",
+  "obStep3Label": "Step 3 of 3 • Security & Setup",
+  "remiIntroBefore": "“Hi! I’m ",
+  "remiIntroAfter": ". I’ll make sure you never miss a dose, even when you’re completely offline!”",
+  "alwaysReady": "Always Ready",
+  "obStep1Title": "Medication reminders that understand real human habits.",
+  "obStep1Body": "No rigid clinical alarm clocks. Your doses are tied to breakfast, lunch and bedtime so taking care of yourself feels effortless.",
+  "morningRoutine": "Morning Routine",
+  "withBreakfast": "With Breakfast",
+  "remiVerified": "Remi Verified",
+  "offlineReliable": "100% Offline Reliable",
+  "flexibleTime": "{time} • Flexible",
+  "@flexibleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "continueSmartIntake": "Continue to Smart Intake",
+  "smartScanVoice": "Smart Scan & Voice",
+  "obStep2Title": "Add medications in seconds, not minutes.",
+  "obStep2Body": "Tired of typing long medicine names? Remedi reads prescriptions and listens to your voice, privately on your phone.",
+  "snapScriptTitle": "Snap Paper Script or Pill Box",
+  "snapScriptSubtitle": "Instant label recognition",
+  "scanDemoSubtitle": "500mg Tablet • Oral",
+  "recognised": "Recognised",
+  "autoFill": "Auto-fill",
+  "voiceDictation": "Voice Dictation",
+  "voiceDictationLangs": "English, Pidgin, Yorùbá, Igbo & Hausa",
+  "voiceDemoQuote": "“One tablet of Lisinopril every morning after pap”",
+  "understoodInstantly": "Understood instantly",
+  "quickPresets": "One-Tap Quick Presets",
+  "quickPresetsHint": "Tap to pre-fill common regimens",
+  "remisAdvice": "Remi's advice",
+  "remisAdviceBody": "“Forget typing long drug names! Just snap a photo or speak to me.”",
+  "nextPeaceOfMind": "Next: Offline Peace of Mind",
+  "noPhotosLeave": "Text is read on your phone. No photos leave your device.",
+  "healthStaysHere": "Your health stays on this phone.",
+  "zeroCloudTrackers": "Zero cloud trackers, ever.",
+  "obStep3Title": "Total Privacy & Instant Doctor QR Handover",
+  "obStep3Body": "Everything stays on your device. When visiting your doctor, share an offline QR code and PDF in one tap.",
+  "whatShouldRemiCallYou": "What should Remi call you?",
+  "criticalAlarms": "Critical Offline Alarms",
+  "essential": "Essential",
+  "criticalAlarmsBody": "Loud reminders that ring on time, even in airplane mode or with no network.",
+  "healthSyncTitle": "{app} Sync",
+  "@healthSyncTitle": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "onDevice": "On-device",
+  "healthSyncBody": "Show resting heart rate and daily steps next to your doses, processed only on this phone.",
+  "caregiverSmsAlert": "Caregiver SMS Alert",
+  "optional": "Optional",
+  "caregiverSmsAlertBody": "If a dose is not confirmed, Remi prompts you to text your caregiver.",
+  "caregiverSmsNote": "The SMS is sent from your own SIM, only when you tap send.",
+  "clinicQrMode": "Clinic QR Handover",
+  "clinicQrModeBody": "Share your summary with any doctor, no pairing needed",
+  "enabled": "Enabled",
+  "enterRemedi": "Enter Remedi & Add First Medicine",
+  "storedPrivately": "Stored privately on this phone",
+  "voicePermissionDenied": "Microphone or speech permission is off. Allow it in your phone's settings, or type the name instead.",
+  "voiceNoMatch": "I didn't catch that. Tap the microphone and try again.",
+  "voiceNetwork": "Your phone's speech service needs a connection for this language. Try English, or type the name instead.",
+  "voiceFailed": "Voice input stopped unexpectedly. Please try again.",
+  "voiceNotRecognised": "I heard you, but couldn't find a medicine name. Try again or type it.",
+  "stopListening": "Stop listening",
+  "tapToStop": "Tap to stop when you're done",
+  "tryAgain": "Try again",
+  "typeInstead": "Type instead"
+}
